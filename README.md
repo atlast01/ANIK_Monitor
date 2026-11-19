@@ -273,7 +273,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File ANIK_Monitor.ps1 -Action Log
 
 สร้างไฟล์ `ANIK_System_Report_วันที่_เวลา.txt` บน Desktop (รองรับกรณี Desktop ถูกย้ายไป OneDrive) ประกอบด้วยหัวข้อ SYSTEM, CPU, GPU, DISKS, NETWORK และ FULL DETAILS (ข้อมูลเต็มจาก `Get-ComputerInfo`) ใช้เวลาไม่กี่วินาที ถ้าบันทึกไม่สำเร็จจะแจ้งข้อผิดพลาดชัดเจน ไม่แจ้งว่าสำเร็จหลอก
 
-> ⚠️ รายงานนี้อาจมีข้อมูลระบุตัวตน เช่น ชื่อเครื่อง ชื่อผู้ใช้ ข้อมูลเจ้าของ และหมายเลขซีเรียลของ BIOS ตรวจและลบก่อนแนบใน GitHub Issue หรือที่สาธารณะ
 
 ### [7] Temperature + Load Alerts
 
